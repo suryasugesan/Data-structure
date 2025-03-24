@@ -28,7 +28,7 @@ public class Binarysearch {
 		int r=size-1;
 		while(l<=r)
 		{
-			int mid=l+r/2; 
+			int mid=(l+r)/2; 
 		
 		if (arr[mid] == a) {
 			System.out.println("Number found at index"+mid);
